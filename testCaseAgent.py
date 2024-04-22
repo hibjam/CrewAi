@@ -5,7 +5,7 @@ from crewai_tools import SerperDevTool
 os.environ["OPENAI_API_KEY"] = ""
 
 api = os.environ.get("OPENAI_API_KEY")
-os.environ["OPENAI_MODEL_NAME"]="gpt-3.5-turbo"
+os.environ["OPENAI_MODEL_NAME"]="gpt-4"
 
 
 productManager = Agent(
